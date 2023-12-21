@@ -1,6 +1,6 @@
 <?php
 require "../../../app/Classes/Database.php";
-require "../../../app/Models/Config.php";
+require "../../../app/core/Config.php";
 ?>
 
 
