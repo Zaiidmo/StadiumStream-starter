@@ -1,5 +1,5 @@
 <?php
-// require "../../app/Controller/Config.php";
+require "../../app/Controller/Config.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@
   </head>
 
   <body class="dark:bg-gray-900 bg-gray-200">
-    <?php include "../../includes/header.php"?>
+    <?php include "../../app/Views/includes/header.php"?>
   </body>
   <script src="../js/theme.js"></script>
 </html>

@@ -6,6 +6,8 @@ module.exports = {
     "./lang/*.php",
     "./lang/*.html",
     "./js/custom.min.js",
+    "./app/Views/includes/*.php",
+    "./app/views/*.php"
   ],
 
   "tailwindCSS.includeLanguages": {
