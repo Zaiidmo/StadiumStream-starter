@@ -1,9 +1,10 @@
 <?php
-// require "../../Controller/Config.php";
+require "../../../app/Classes/Database.php";
+require "../../../app/Models/Config.php";
 ?>
 
 
-<div class="cards flex flex-wrap justify-center tablet:justify-between gap-6 mb-12">
+<div class="cards mt-16 flex flex-wrap justify-center tablet:justify-between gap-6 mb-12">
     <div id="users" class="max-w-sm p-6 w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <div class="icon_container mb-9">
             <span class="h-9 w-9 dark:bg-white bg-black rounded-full flex justify-center

@@ -1,6 +1,14 @@
 <nav class="fixed top-0 z-50 w-full bg-white border-b lg:px-10 border-gray-200 dark:bg-gray-800 dark:border-gray-700">
    <div class="flex items-center justify-between px-3 py-3 lg:px-8 lg:pl-3">
       <div id="logo" class="flex items-center ">
+         <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" id="sidebar-toggle-button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg smXl:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+            <span class="sr-only">Open sidebar</span>
+
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+               <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
+               </path>
+            </svg>
+         </button>
          <a href="../src/index.php" class="flex ml-2 md:mr-24 gap-5 items-center">
             <svg width="35" height="35" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
                <path d="M43.53 5.3C43.53 4.22 44.13 3.82 45.28 3.82C46.43 3.82 82.89 3.68 83.5 3.68C84.1 3.68 84.78 4.28 84.71 5.09C84.64 5.9 84.78 17.32 84.71 17.92C84.64 18.52 84.31 19.2 83.43 19.26C82.56 19.33 45.75 19.46 45.01 19.46C44.27 19.46 43.67 18.59 43.6 17.78C43.53 16.97 43.53 5.97 43.53 5.3Z" fill="#546F7B" />
@@ -42,6 +50,8 @@
             </svg>
          </button>
       </div>
+   </div>
+   <div>
       <div class="hidden w-full" id="navbar-hamburger">
          <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
             <li>
