@@ -1,5 +1,5 @@
 <?php
-require '../Models/TeamModel.php';
+require "../../../app/Models/TeamModel.php";
 
 if(isset($_POST['edit'])){
     $name = $_POST['name'];
@@ -25,3 +25,4 @@ if(isset($_POST['edit'])){
 } else {
     header("Location: ../../Public/pages/dashboard/teams.php");
 }
+

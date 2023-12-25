@@ -1,6 +1,8 @@
 <?php 
-require '../Classes/Crud.php';
-require '../core/Config.php';
+require '../../../app/Classes/Crud.php';
+// require '../../../app/core/Config.php';
 
 //Acceding the table
+$tablename = 'teams';
 $team = new Crud($db);
+$team->read($tablename);

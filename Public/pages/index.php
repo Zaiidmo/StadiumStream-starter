@@ -11,7 +11,7 @@ require "../../app/core/Config.php";
     <link rel="stylesheet" href="../assets/dist/output.css" />
   </head>
 
-  <body class="dark:bg-gray-900 bg-gray-200">
+  <body class="dark:bg-gray-900  bg-gray-200">
     <?php include "../../app/Views/includes/header.php"?>
   </body>
   <script src="../assets/js/theme.js"></script>

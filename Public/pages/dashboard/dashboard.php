@@ -18,7 +18,9 @@
 
 
 </body>
-<script src="../../assets/js/theme.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+<script src="../../assets/js/navigation.js"></script>
+<script src="../../assets/js/theme.js"></script>
+
 
 </html>

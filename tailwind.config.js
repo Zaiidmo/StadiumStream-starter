@@ -3,11 +3,12 @@ module.exports = {
   // content: ["./Public/pages/**/*.{html,js,php}"],
   content: [
     "./Public/pages/*.php",
+    "./Public/pages/dashboard/*.php",
     "./lang/*.php",
     "./lang/*.html",
     "./js/custom.min.js",
     "./app/Views/includes/*.php",
-    "./app/views/*.php"
+    "./app/views/*.php",
   ],
 
   "tailwindCSS.includeLanguages": {
